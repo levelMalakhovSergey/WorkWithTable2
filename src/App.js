@@ -8,9 +8,9 @@ import PaginationTable from "./components/PaginationTable";
 function App() {
   return (
     <div className="App">
-      <SortingTable/>
+      {/*<SortingTable/>*/}
         {/*<FilteringTable/>*/}
-      {/*  <PaginationTable/>*/}
+        <PaginationTable/>
     </div>
   );
 }
